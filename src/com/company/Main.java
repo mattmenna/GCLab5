@@ -24,6 +24,6 @@ public class Main {
         System.out.println("Roll 1:");
         for (int i=1; i<=numRolls; )
         System.out.println(Math.random(0, sides));
-
     }
+
 }
