@@ -22,8 +22,8 @@ public class Main {
         int numRolls= scnr.nextInt();
 
         System.out.println("Roll 1:");
-        for (int i=1; i<=numRolls; )
-        System.out.println(Math.random(0, sides));
+        for (int i=0; i<=numRolls; i++)
+        System.out.println(i);
     }
 
 }
