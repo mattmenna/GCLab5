@@ -9,10 +9,10 @@ Roll two n-sided dice, display the results of each, and then ask the user if he/
 import java.util.Random;
 import java.util.Scanner;
 
-public class Main {
+public class DiceRoller {
 
     public static void main(String[] args) {
-	// write your code here
+        // write your code here
         System.out.println("Welcome to the Grand Circus Casino");
         Scanner scnr = new Scanner(System.in);
         System.out.println("How many sides should each die have?");
@@ -22,8 +22,8 @@ public class Main {
         int numRolls= scnr.nextInt();
 
         System.out.println("Roll 1:");
-        for (int i=0; i<=numRolls; i++)
-        System.out.println(i);
+        for (int i=1; i<=numRolls; i++ )
+            System.out.println(Math.random());
     }
 
 }
